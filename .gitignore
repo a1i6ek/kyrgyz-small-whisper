@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Hugging Face / Gradio caches
+.gradio/
+flagged/
+
+# Editor / OS
+.DS_Store
+/.idea/
+/.vscode/
+*.swp
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Web UI (see also web/.gitignore)
+web/node_modules/
+web/.svelte-kit/
+web/build/
